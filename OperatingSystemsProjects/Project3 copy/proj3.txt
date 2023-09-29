@@ -1,0 +1,71 @@
+Lab 3   
+
+Before writing this program, you can take a look at the example 'thread.txt' 
+to understand how to create threads and use system calls to deal with mutual 
+exclusion.
+
+Simulate the concurrent execution of two threads using a single program:
+Thread A: prints five subsequent lines of letter A on the printer and 
+keeps looping (about 10 times).
+Thread B: prints five subsequent lines of letter B on the printer and 
+keeps looping (about 10 times).
+
+Implement (a) and (b) using two programs, respectively:
+
+(a) Do not use any algorithm for mutual exclusion and show the printout, 
+which should be similar to this:
+
+                             1: AAAAAAAAA
+                             1: AAAAAAAAA
+                            
+                             1: BBBBBBBBB
+                             1: BBBBBBBBB
+                             1: BBBBBBBBB
+
+                             1: AAAAAAAAA
+                             1: AAAAAAAAA
+                             1: AAAAAAAAA
+
+                             1: BBBBBBBBB
+                             1: BBBBBBBBB
+
+                             2: AAAAAAAAA
+                             2: AAAAAAAAA
+
+                             .....................
+
+In this printout, five lines of A or B have been interrupted. That means
+mutual exclusion is not considered. Your output will be different from this 
+one. But as long as you see one interruption of five lines of A or B, your 
+output is correct. 
+
+(b) Write the program again considering the mutual exclusion. Run the 
+program several times to show that no five lines of A or B are interrupted.
+
+To make longer execution of threads, use some sleep(n) functions in 
+the program. Experiment with n to choose the best one to show the 
+results.
+
+
+                            1: AAAAAAAAA
+                            1: AAAAAAAAA
+                            1: AAAAAAAAA
+                            1: AAAAAAAAA
+                            1: AAAAAAAAA
+
+                            1: BBBBBBBBB
+                            1: BBBBBBBBB
+                            1: BBBBBBBBB
+                            1: BBBBBBBBB
+                            1: BBBBBBBBB
+
+                            2: AAAAAAAAA
+                            .....................
+
+Submission:
+
+In order not to lose any file, you'd better zip all your files into a .zip file. 
+
+Submit your project to CANVAS before the deadline. Homework will NOT be accepted through emails. 
+You should write a readme textfile telling the grader how to run your programs. Without this file, 
+it is very likely that your project will not be run properly. 

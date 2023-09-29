@@ -1,0 +1,12 @@
+total 168
+drwx------. 3 dah249 student  4096 Jul 20 23:01 .
+drwx------. 4 dah249 student  4096 Jul 20 22:35 ..
+-rw-------. 1 dah249 student  6148 Jul 20 22:35 .DS_Store
+-rw-------. 1 dah249 student    20 Jul 20 22:35 file.txt
+-rw-------. 1 dah249 student    41 Jul 20 22:35 input.txt
+-rw-------. 1 dah249 student     0 Jul 20 23:01 output.txt
+-rw-------. 1 dah249 student 33256 Jul 20 22:35 pre
+-rwx------. 1 dah249 student 13168 Jul 20 23:00 proj2-1
+-rw-------. 1 dah249 student  4623 Jul 20 22:35 proj2-1.c
+-rw-------. 1 dah249 student 33352 Jul 20 22:35 sort
+drwx------. 2 dah249 student  4096 Jul 20 22:35 .vscode
